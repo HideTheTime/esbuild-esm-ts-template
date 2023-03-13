@@ -1,2 +1,14 @@
 node_modules
 dist
+.env
+*.lock
+*.log
+package-lock.json
+build
+.out
+out
+config.js
+
+# 缓存
+*.tmp
+/tmp

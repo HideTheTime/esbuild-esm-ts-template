@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ESNext",
+    "module": "ESNext",
     "allowJs": true,
     "removeComments": true,
     "resolveJsonModule": true,
@@ -13,7 +13,8 @@
     "outDir": "dist",
     // "strict": true,
     "lib": [
-      "esnext"
+      "esnext",
+      "ESNext"
     ],
     "baseUrl": ".",
     "forceConsistentCasingInFileNames": true,
