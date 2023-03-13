@@ -9,7 +9,7 @@ const startServer = async (): Promise<FastifyInstance> => {
   const app = fastify();
 
   app.get("/", async (request: FastifyRequest, reply: FastifyReply): Promise<FastifyReply> => {
-    return reply.send({ hello: "world22222" });
+    return reply.send({ hello: "wor22ld22222" });
   });
 
   return app;
