@@ -9,11 +9,10 @@
       "./node_modules/@types",
       "types"
     ],
-    "sourceMap": true,
+    // "sourceMap": true,
     "outDir": "dist",
     // "strict": true,
     "lib": [
-      "esnext",
       "ESNext"
     ],
     "baseUrl": ".",
@@ -23,10 +22,12 @@
     "emitDecoratorMetadata": true,
     "moduleResolution": "Node",
     "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./types"
   },
   "include": [
     "./src/**/*",
-    "test/test.test.ts"
+    "types/**/*"
   ],
   "exclude": [
     "node_modules",
