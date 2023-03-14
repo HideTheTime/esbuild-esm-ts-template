@@ -22,5 +22,6 @@ startServer()
   .then((app) => app.listen(3333))
   .catch(console.error);
 
-export let a: IRef
-export * from './test'
+let a: IRef = {text:"STRING"}
+
+export { a }
